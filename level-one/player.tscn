@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://b8nbd6jmgvbqh"]
+
+[ext_resource type="Script" uid="uid://d1c8t3dwp8lwa" path="res://level-one/player.gd" id="1_l8754"]
+[ext_resource type="Texture2D" uid="uid://ctrtofpoj3hxx" path="res://level-one/sprites/player_sprite_sheet.png" id="2_l8754"]
+
+[node name="Player" type="CharacterBody2D" unique_id=797502496]
+script = ExtResource("1_l8754")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=191806192]
+texture_filter = 1
+texture = ExtResource("2_l8754")
+hframes = 4
+vframes = 2

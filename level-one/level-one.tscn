@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://cslhoqxu1wqob"]
+
+[ext_resource type="Texture2D" uid="uid://bjbvv4six7u2u" path="res://level-one/sprites/bg.png" id="1_kcecf"]
+[ext_resource type="PackedScene" uid="uid://b8nbd6jmgvbqh" path="res://level-one/player.tscn" id="2_dgmnl"]
+
+[node name="Level One" type="Node2D" unique_id=1311461981]
+
+[node name="RigidBody2D" parent="." unique_id=1390855614 instance=ExtResource("2_dgmnl")]
+position = Vector2(1, 108)
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=256882136]
+position = Vector2(-3, 9)
+zoom = Vector2(2, 2)
+
+[node name="bg" type="Sprite2D" parent="." unique_id=197463425]
+z_index = -1
+texture_filter = 1
+texture = ExtResource("1_kcecf")
