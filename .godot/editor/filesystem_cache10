@@ -1,11 +1,11 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1774629761
+::res://::1774696475
 icon.svg::CompressedTexture2D::7785043861353229893::1772912146::1774629761::1::::<><><>0<>0<>71dd847cc0f214cc75722b58ced7df04<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://level-one/::1774629400
-level-one.tscn::PackedScene::6059399605077917101::1774616453::0::1::::<><><>0<>0<><>::uid://bjbvv4six7u2u::::res://level-one/sprites/bg.png<>uid://b8nbd6jmgvbqh::::res://level-one/player.tscn
-player.gd::GDScript::8990339808330903184::1774629400::0::1::::<>CharacterBody2D<><>0<>0<><>::
-player.tscn::PackedScene::4729557151606592371::1774629400::0::1::::<><><>0<>0<><>::uid://d1c8t3dwp8lwa::::res://level-one/player.gd<>uid://ctrtofpoj3hxx::::res://level-one/sprites/player_sprite_sheet.png
-::res://level-one/sprites/::1774627841
+::res://level-one/::1774639986
+level-one.tscn::PackedScene::6059399605077917101::1774639986::0::1::::<><><>0<>0<><>::uid://bjbvv4six7u2u::::res://level-one/sprites/bg.png<>uid://b8nbd6jmgvbqh::::res://level-one/player.tscn
+player.gd::GDScript::8990339808330903184::1774639986::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.tscn::PackedScene::4729557151606592371::1774638738::0::1::::<><><>0<>0<><>::uid://d1c8t3dwp8lwa::::res://level-one/player.gd<>uid://ctrtofpoj3hxx::::res://level-one/sprites/player_sprite_sheet.png
+::res://level-one/sprites/::1774629761
 bg.png::CompressedTexture2D::3021498764088685418::1774561225::1774629761::1::::<><><>0<>0<>8e2695e268de7aac04d85cf01ac10b39<>res://.godot/imported/bg.png-0bc6ba8debe455d89bf9000ff4b353b6.ctex::
 player2.png::CompressedTexture2D::6955835437861440390::1774558428::1774629761::1::::<><><>0<>0<>f8390f8b2b0b5d2d8937bfff36c40097<>res://.godot/imported/player2.png-798f308e04a13cc8e903ee0a9444a760.ctex::
 player.png::CompressedTexture2D::5899360236064978798::1774554566::1774629761::1::::<><><>0<>0<>2b0f05ead1efcd2ea6c220a45989de8c<>res://.godot/imported/player.png-db112e24c7263e652e570fc462037cdf.ctex::

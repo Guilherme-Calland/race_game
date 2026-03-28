@@ -11,3 +11,6 @@ texture_filter = 1
 texture = ExtResource("2_l8754")
 hframes = 4
 vframes = 2
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1387299432]
+zoom = Vector2(2, 2)

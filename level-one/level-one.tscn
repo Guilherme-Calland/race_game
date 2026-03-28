@@ -6,13 +6,26 @@
 [node name="Level One" type="Node2D" unique_id=1311461981]
 
 [node name="RigidBody2D" parent="." unique_id=1390855614 instance=ExtResource("2_dgmnl")]
-position = Vector2(1, 108)
-
-[node name="Camera2D" type="Camera2D" parent="." unique_id=256882136]
-position = Vector2(-3, 9)
-zoom = Vector2(2, 2)
 
 [node name="bg" type="Sprite2D" parent="." unique_id=197463425]
 z_index = -1
 texture_filter = 1
+texture = ExtResource("1_kcecf")
+
+[node name="bg" type="Sprite2D" parent="bg" unique_id=132872680]
+z_index = -1
+texture_filter = 1
+position = Vector2(256, 128)
+texture = ExtResource("1_kcecf")
+
+[node name="bg" type="Sprite2D" parent="bg/bg" unique_id=1562193381]
+z_index = -1
+texture_filter = 1
+position = Vector2(256, -128)
+texture = ExtResource("1_kcecf")
+
+[node name="bg" type="Sprite2D" parent="bg/bg/bg" unique_id=1689195991]
+z_index = -1
+texture_filter = 1
+position = Vector2(-256, -128)
 texture = ExtResource("1_kcecf")

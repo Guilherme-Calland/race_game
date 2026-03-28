@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-@export var acceleration = 1
+@export var acceleration = 2
 @export var friction = 1
 @onready var sprite = $Sprite2D
 var speedX = 0
@@ -72,6 +72,25 @@ func _physics_process(delta: float) -> void:
 				speedY += friction
 				if speedY > 0:
 					speedY = 0
+		
+		else:
+			var angle = deg_to_rad(direction)
+			var speedXIncrement = cos(angle) * acceleration * friction 
+			var speedYIncrement = sin(angle) * acceleration * friction
+			if direction == 45 or direction == -45:
+				if direction >= 0:
+					speedX += speedXIncrement
+					speedY -= speedYIncrement
+				else:
+					speedX -= speedXIncrement
+					speedY += speedYIncrement
+			if direction == 135 or direction == -135:
+				if direction >= 0:
+					speedX -= speedXIncrement
+					speedY += speedYIncrement
+				else:
+					speedX += speedXIncrement
+					speedY -= speedYIncrement
 	else:
 		if speedX > 0:
 			speedX -= friction
@@ -83,6 +102,5 @@ func _physics_process(delta: float) -> void:
 			speedY += friction
 		
 	velocity = Vector2(speedX, speedY) * Vector2(1,0.5)
-	
 	move_and_slide()
 	
